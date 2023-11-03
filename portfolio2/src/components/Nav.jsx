@@ -1,16 +1,14 @@
 import {Link, useLocation} from 'react-router-dom';
 import '../styles/Nav.css'
 
+
 function Nav() {
     const currentTab = useLocation().pathname;
 
     return (
         <>
-            <div className='navbar d-flex align-items-center'>
-                <div>
-
-                </div>
-                <Link className={currentTab === '/' ? 'nav-link glow justify-content-start' : 'nav-link justify-content-start'}>
+            <div className='mb-5 navbar d-flex align-items-center'>
+                <Link className={currentTab === '/' ? 'nav-item nav-link glow' : 'nav-item nav-link'}>
                     My website
                 </Link>
             <div className='d-flex justify-content-end'>

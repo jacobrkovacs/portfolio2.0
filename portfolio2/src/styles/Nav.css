@@ -1,5 +1,5 @@
 .glow {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #000000;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -9,10 +9,10 @@
 
   @keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #fff, 0 0 20px #f3a960, 0 0 30px #f3a960, 0 0 40px #f3a960, 0 0 50px #f3a960, 0 0 60px #f3a960;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #fff, 0 0 30px #f08c29, 0 0 40px #f08c29, 0 0 50px #f08c29, 0 0 60px #f08c29, 0 0 70px #f08c29;
     }
   }
 
@@ -32,7 +32,7 @@
   .nav-item {
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #000000;
     text-decoration: none;
   }
