@@ -1,13 +1,19 @@
 import { Outlet } from 'react-router-dom'
 import Nav from './components/Nav'
-import bgImg from './assets/images/pexels-abdullah-ghatasheh-1631677.jpg'
+import bgImg from './assets/images/background.png'
+
+const background = {
+  backgroundImage: `url(${bgImg}) norepeat center fixed`,
+  backgroundSize: 'cover',
+  height: '100vh'
+}
 
 
 function App() {
 
   return (
     <>
-      <div style={{backgroundImage: `url(${bgImg})`, height: '100vh'}}>
+      <div style={background}>
         <Nav />
         <main className='mx-5'>
           <Outlet />

@@ -9,7 +9,7 @@
 
   @keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #f3a960, 0 0 30px #f3a960, 0 0 40px #f3a960, 0 0 50px #f3a960, 0 0 60px #f3a960;
+      text-shadow: 0 0 10px #fff, 0 0 20px #0a5e9e, 0 0 30px #0a5e9e, 0 0 40px #0a5e9e, 0 0 50px #0a5e9e, 0 0 60px #0a5e9e;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #f08c29, 0 0 40px #f08c29, 0 0 50px #f08c29, 0 0 60px #f08c29, 0 0 70px #f08c29;
@@ -30,6 +30,7 @@
 
   }
   .nav-item {
+    font-family: Permanent Marker;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 1.5rem;
