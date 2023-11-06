@@ -8,7 +8,6 @@ import Error from './pages/Error.jsx';
 import Home from './pages/Home.jsx';
 import Projects from './pages/Projects.jsx';
 import Resume from './pages/Resume.jsx';
-import './index.css';
 import works from './components/works'
 
 const router = createBrowserRouter([

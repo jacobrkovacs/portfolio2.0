@@ -2,12 +2,12 @@ import { Outlet } from 'react-router-dom'
 import Nav from './components/Nav'
 import bgImg from './assets/images/background.png'
 
+
 const background = {
   backgroundImage: `url(${bgImg}) norepeat center fixed`,
   backgroundSize: 'cover',
   height: '100vh'
 }
-
 
 function App() {
 
